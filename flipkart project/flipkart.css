@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    background-color: rgb(237, 237, 237);
+}
+
+nav.a {
+    border: 2px solid white;
+    height: 50px;
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+input {
+    padding: 8px 10px;
+    width: 70vh;
+    height: 30px;
+    background-color: rgb(234, 243, 249);
+    font-size: 17px;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+.login:hover {
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    height: 7vh;
+
+}
+
+nav.b {
+    border: 2px solid white;
+    height: 25vh;
+    background-color: white;
+    margin: 10px;
+    padding: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.c img {
+    width: 205vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.d {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+
+}
+
+.d .first {
+    width: 166vh;
+    height: 63vh;
+    background-color: white;
+    margin-left: 20px;
+
+
+}
+
+.d .second {
+    width: 35vh;
+    height: 63vh;
+    background-color: white;
+
+}
+
+.d .second img {
+    width: 35vh;
+    height: 50vh;
+    margin-top: 34px;
+}
+
+.d .first h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.d .first .shopping {
+    display: flex;
+    gap: 15px;
+    margin-left: 33px;
+    margin-top: 20px;
+
+}
+
+.d .first .shopping .img {
+    border: 1px solid rgb(216, 214, 214);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.d .first .shopping .text {
+
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.d .first .shopping .price {
+    color: green;
+    margin: 20px;
+
+}
+
+.e {
+    width: 205vh;
+    height: 63vh;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.e .shopping {
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.e .shopping .img {
+    border: 1px solid rgb(216, 214, 214);
+    padding: 20px;
+    border-radius: 5px;
+
+
+}
+
+.e h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.e .shopping .text {
+
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.e .shopping .price {
+    font-weight: bold;
+    margin: 20px;
+
+}
+.f {
+    width: 205vh;
+    height: 63vh;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.f .shopping {
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.f .shopping .img {
+    border: 1px solid rgb(216, 214, 214);
+    padding: 20px;
+    border-radius: 5px;
+
+
+}
+
+.f h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.f .shopping .text {
+
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.f .shopping .price {
+    font-weight: bold;
+    margin: 20px;
+    color: green;
+
+}
+.g{
+
+   
+    background-color: rgba(248, 245, 245, 0.918);
+}
+.summery{
+    margin: 20px;
+    
+    font-size: 15px;
+   
+    color: rgba(151, 150, 150, 0.95);
+}
+.summery h3{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.summery h2{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(35, 35, 35);
+  }
+
+.footer .item{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px;
+  
+}
+.footer a{
+color: white;
+font-size: 16px;
+}
+.footer h4{
+    color: white;
+    margin: 20px;
+    color: grey;
+    font-size: 13px;
+
+}
+.sapration {
+    height: 2px;
+    background-color: rgb(90, 88, 88);
+}
+
+
